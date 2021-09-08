@@ -14,7 +14,7 @@ function alldata(request,response)
 {
     response.send(elements);
 }
-app.get('/tasks/:tasks/',searchElement);
+app.get('/tasks/:task/',searchElement); 
 function searchElement(request,response)
 {
 	var word=request.params.task;
